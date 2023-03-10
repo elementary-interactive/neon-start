@@ -16,4 +16,3 @@ Neon is a multi-purpose base to handle different type of projects over Laravel w
 ## Learning Neon
 
 ## License
-
