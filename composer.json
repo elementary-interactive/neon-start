@@ -1,5 +1,5 @@
 {
-    "name": "elementary-interactive/neon-start",
+    "name": "neon/start",
     "type": "project",
     "description": "The Neon start project.",
     "keywords": ["framework", "laravel"],
