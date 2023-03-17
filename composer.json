@@ -15,13 +15,15 @@
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
+        "laravel/nova": "~4.0",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
         "phpunit/phpunit": "^10.0",
         "spatie/laravel-ignition": "^2.0",
         "neon/model-uuid": "^1.0",
         "neon/attributables": "^1.0",
-        "neon/site": "^1.0"
+        "neon/site": "^1.0",
+        "neon/model-menu": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -64,6 +66,12 @@
             "php-http/discovery": true
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
     "minimum-stability": "stable",
     "prefer-stable": true
 }
