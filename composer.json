@@ -21,7 +21,7 @@
         "phpunit/phpunit": "^10.0",
         "spatie/laravel-ignition": "^2.0",
         "neon/model-uuid": "^1.0",
-        "neon/attributables": "^1.0",
+        "neon/attributable": "^1.0",
         "neon/site": "^1.0",
         "neon/model-menu": "^1.0"
     },
