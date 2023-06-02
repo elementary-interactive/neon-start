@@ -1,14 +1,14 @@
 <?php
 
 return [
-  'driver' => 'database', //-  env('SITE_DRIVER', 'file'),
+  'driver' => env('NEON_SITE_DRIVER', 'file'),
 
   'cache' => false,
 
   'class' => \Neon\Site\Models\Site::class,
 
   'hosts' => [
-    env('SITE_ID') => [
+    env('NEON_PRODUCTION_SITE_ID') => [
       'domains' => []
     ],
     'dev' => [
